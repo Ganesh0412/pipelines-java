@@ -14,7 +14,7 @@ strategy:
     jdk11_windows:
       imageName: "windows-latest"
       jdkVersion: "1.11"
-  maxParallel: 1
+  maxParallel: 2
 
 pool:
   vmImage: $(imageName)
